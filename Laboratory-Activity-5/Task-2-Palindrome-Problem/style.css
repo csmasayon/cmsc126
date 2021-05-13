@@ -1,0 +1,37 @@
+.textbox{
+    border-style: groove;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.otherText{
+    font-style: italic;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+html{
+    background-color: azure;
+}
+
+button{
+    padding:3px;
+    margin:auto;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+h2{
+    text-shadow: 1px 1px rgb(175, 175, 175);
+}
