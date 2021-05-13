@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+      <title>Sign Up | University of the Philippines Mindanao</title>
+      <link rel="icon" type="image/png" href="pics/upmin_logo.png"/>
+      <link rel="stylesheet" href="jquery/jquery-ui/jquery-ui.css">
+      <link rel="stylesheet" href="css/sign_up.css">
+      <script src = "jquery/jquery-3.6.0.js"></script>
+      <script src = "jquery/jquery-ui/jquery-ui.js"></script>
+      <script>
+         $(function() {
+            $( "#menu-1" ).menu();
+         });
+      </script>
+   </head>
+
+   <body>
+      <div class="menu">
+        <img id="upmin" src="pics/upmin_logo.png" height="25%">
+        <br><br><br><br>
+        <ul id = "menu-1">
+            <li><a href = "index.html"><img src="pics/home2.png" height="20px" width="20px">HOME</a></li>
+            <li><a href = "acad_units.html"><img src="pics/acad_units.png" height="20px" width="20px">ACADEMIC UNITS</a></li>
+            <li><a href = "acad_prog.html"><img src="pics/acad_program.png" height="20px" width="20px">ACADEMIC PROGRAMS</a></li>
+            <li><a href = "sign_up.html"><img src="pics/login.png" height="20px" width="20px">SIGN UP</a></li>
+         </ul>
+      </div>
+
+      <div class="content">
+         <div class="overlay">
+            <img src="pics/origlogonew.png" class="logo">
+            <div class = "form">
+               <p class="form-head">Sign Up</p>
+               <hr>
+               <input type="text" class="first-name" id="first" placeholder = "First name">
+               <input type="text" class="last-name" id="last" placeholder = "Last name"><br>
+               <p class="form-text">Gender:</p>
+               <div id="radioset">
+                  <input type="radio" id="radio1" name="gender" value="Male"><label for="radio1">Male</label>
+                  <input type="radio" id="radio2" name="gender" value="Female"><label for="radio2">Female</label>
+               </div>
+               <p class="form-text">Birthday:</p>
+               <input type="text" class="date" id="datepicker" placeholder="Date of birth"><br>
+               <p class="form-text">Province:</p>
+               <input type="text" class="province" id="autocomplete" placeholder="Province"><br>
+               <p class="form-text">Year Level:</p>
+               <input type="text" id="yearLevel" name="yearLevel"><br><br>
+               <input type="button" onclick="saveFile()" value="Sign Up">
+            </div>
+         </div>
+      </div>
+      <input id="autocomplete">
+   <script src="js/sign_up.js">
+   </script>
+   </body>
+</html>

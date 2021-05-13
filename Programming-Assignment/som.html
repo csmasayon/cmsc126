@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang = "en">
+   <head>
+    <link rel="shortcut icon" type="image/png" href="pics/upmin_logo.png">
+      <meta charset = "utf-8">
+      <title>School of Management | University of the Philippines Mindanao</title>
+      <link rel="stylesheet" href="jquery/jquery-ui/jquery-ui.css">
+      <link rel="stylesheet" href="css/som.css">
+      <script src = "jquery/jquery-3.6.0.js"></script>
+      <script src = "jquery/jquery-ui/jquery-ui.js"></script>
+   </head>
+
+   <body id="csm">
+      <!-- Side Menu using Menu widget -->
+      <div class="menu">
+         <img id="upmin" src="pics/upmin_logo.png" class="header">
+         <br><br><br><br>
+         <ul id = "menu-1">
+            <li><a href = "index.html"><img src="pics/home2.png" class="icon">HOME</a></li>
+            <li><a href = "acad_units.html"><img src="pics/acad_units.png" class="icon">ACADEMIC UNITS</a></li>
+            <li><a href = "acad_prog.html"><img src="pics/acad_program.png" class="icon">ACADEMIC PROGRAMS</a></li>
+            <li><a href = "sign_up.html"><img src="pics/login.png" class="icon">SIGNUP</a></li>
+         </ul>
+      </div>
+
+      <!--Content of Webpage-->
+      <div class="content_csm">
+         <!--Header-->
+         <div class="image_overlay"><p class="csm">SCHOOL OF MANAGEMENT</p></div>
+         <div class="rect"><p class="csm2">ABOUT SOM</p></div>
+         <!--Area below the header-->
+         <div class="below_rect">
+             <!--Contains the background image-->
+            <div class="below_rect2">
+               <!--History of School of Management-->
+               <div class="image_overlay_history">
+                  <p class="csm3">HISTORY</p>
+                  <p class="csm4">
+                     On June 1996, the College of Arts and Sciences and the School of Management were created. After a year,
+                     the CAS was split into the College of Humanities and Social Sciences and the College of Science and Mathematics.
+                     The School of Management was retained.
+                  </p>
+               </div>
+               <!--Academic Departments-->
+               <div class="image_overlay_dept">
+                  <p class="csm3">SPECIALIZATION</p>
+                  <p class="csm4">
+                     The UP Mindanao School of Management (SOM) undertakes research on supply chain management and agribusiness economics.
+                  </p>
+                  <!--Picture that represent School of Management (SOM)-->
+                  <div class="pic_som"></div>
+                  <!--Info about SOM-->
+                  <div class="content_som">
+                     <p class="csm5">Offered Degree Programs</p>
+                     <p class="csm6">
+                        The UP Mindanao School of Management offers one undergraduate degree program and two graduate degree programs.
+                        Its degree programs are the Bachelor of Arts in Agribusiness Economics (BSABE), one of its kind in the Philippines,
+                        Master in Management, and PhD by Research.
+                     </p>
+                     <button class="button" onclick="gotoBSABE();">See Degree Programs</button>
+                  </div>
+               </div>
+            </div>
+            <!--Footer-->
+            <div class="footer">
+               <p class="csm7">All Rights Reserved 2021<br>University of the Philippines - Mindanao</p>
+            </div>
+         </div>
+      </div>
+
+      <!---Javascript-->
+      <script src="js/acad_units.js"></script>
+   </body>
+</html>

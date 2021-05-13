@@ -1,0 +1,99 @@
+html, body {
+  min-width: 1000px;
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  background-color: #014421;
+}
+
+div.menu {
+  height: 100%;
+  width: 21%;
+  background-color: #7b1113;
+  float: left;
+  position: fixed;
+}
+
+div.accordion {
+  height: 100%;
+  width: 100%;
+  display: table;
+  background-color: #7b1113;
+}
+
+div.content_csm {
+  height: 100%;
+  width: 80%;
+  display: block;
+  float: right;
+  background: url(../pics/upbg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.image_overlay {
+  position: absolute;
+  height: 55%;
+  width: 80%;
+}
+
+p.csm {
+  text-align: center;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px black;
+  padding: 5%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+img.header {
+  height: 25%;
+}
+
+img.icon {
+  padding-right: 8px;
+  height: 20px;
+  width: 20px;
+}
+
+img.csm {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 250%;
+  width: 90%;
+}
+
+img {
+  padding-right: 8px;
+}
+
+fieldset {
+  padding: 50px 0;
+  border: 0;
+  text-align: left;
+  margin: 23% 20%;
+  border-radius: 40px;
+  background-color: #7b1113;
+}
+
+#upmin {
+  display: block;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  margin: 23% 20%;
+  border-radius: 60px;
+}
