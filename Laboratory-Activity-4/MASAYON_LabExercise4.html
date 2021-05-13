@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- MASAYON, CHRISTIAN ACE S. 2020-05273
+This HTML file computes for the income tax of an employee
+(government or non-government worker) using JavaScript. --> 
+<html>
+<head>
+    <title>Philippine Income Tax Computation</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<form id = "incometaxform">
+    <label for="mnth">Monthly Income: PHP&nbsp;</label>
+    <input type="number" min="0" id="mnth"><br>
+    <label for="dep">Dependents:</label>
+    <input type="number" min="0" value="0" id="dep"><br>
+    <label for="worker">Government Worker:</label>
+    <select id="worker">
+        <option value="y">Yes</option>
+        <option value="n">No</option>
+    </select><br><br>
+
+    <button type="button" onclick="calc();taxPayableCalc();">Calculate Income Tax</button>&nbsp;&nbsp;<button type="button" onclick="reset();">Reset</button><br><br>
+
+    <label for="sssddct">SSS Deduction: PHP&nbsp;</label>
+    <input type="number" id="sssddct" disabled><br>
+    <label for="gsisddct">GSIS Deduction: PHP&nbsp;</label>
+    <input type="number" id="gsisddct" disabled><br>
+    <label for="philhealthddct">PhilHealth Deduction: PHP&nbsp;</label>
+    <input type="number" id="philhealthddct" disabled><br>
+    <label for="pagibigddct">PAG-IBIG Deduction: PHP&nbsp;</label>
+    <input type="number" id="pagibigddct" disabled><br>
+    <label for="personal">Personal Exemption: PHP&nbsp;</label>
+    <input type="number" id="personal" disabled><br>
+    <label for="dependents">Dependents:&nbsp;</label>
+    <input type="number" id="dependents" disabled><br>
+    <label for="ape">Additional Personal Exemption (APE): PHP&nbsp;</label>
+    <input type="number" id="ape" disabled><br>
+    <label for="grossInc">Gross Income (Including 13th month pay): PHP&nbsp;</label>
+    <input type="number" id="grossInc" disabled><br>
+    <label for="totalddct">Total Deductions: PHP&nbsp;</label>
+    <input type="number" id="totalddct" disabled><br>
+    <label for="taxInc">Taxable Income: PHP&nbsp;</label>
+    <input type="number" id="taxInc" disabled><br>
+    <label for="taxPay">Payable Tax: PHP&nbsp;</label>
+    <input type="number" id="taxPay" disabled><br>
+</form>    
+</body>
+</html>

@@ -1,0 +1,202 @@
+html, body{
+    min-width: 1000px;
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background-color: #014421;
+}
+
+div.menu{
+   height: 100%;
+   width: 21%;
+   background-color: #7b1113;
+   float:left;
+   position: fixed !important;
+}
+
+div.content{
+   height: 100%;
+   width: 79%;
+   display: block;
+   float: right;
+   background: url(../pics/upbg.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.menu>ul>li a{
+  text-decoration: none;
+}
+
+#upmin{
+   display: block;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+img{
+   padding-right: 8px;
+}
+
+.content>.overlay>#tabs{
+  text-align: justify;
+  max-width: max-content;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #7b1113;
+}
+
+#footnote{
+  font-style: italic;
+  font-size: small;
+}
+
+.vision{
+  text-align: center;
+}
+
+.logo{
+  display: block;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  position: relative;
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(255, 255, 255, 1));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.overlay{
+  position: absolute;
+  height: 100%;
+  width: 79%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.imagetab{
+  width: 39%;
+  float: left;
+  margin-right: 2px;
+  -webkit-border-radius: 18px; 
+  -moz-border-radius: 18px; 
+  border-radius: 18px; 
+}
+
+.contact-head{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+    height: 330px;
+    -webkit-border-radius: 18px; 
+    -moz-border-radius: 18px; 
+    border-radius: 18px; 
+    margin-bottom:.5em;
+  }
+
+.footer{
+    height: 5%;
+    width: 100%;
+    background-color: #014421;
+}
+
+.footer-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: .5em;
+    color: white;
+    text-align: center;
+}
+
+.tab-head{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+    height: 330px;
+    -webkit-border-radius: 18px; 
+    -moz-border-radius: 18px; 
+    border-radius: 18px; 
+}
+
+.vision-header{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: /*#014421;*/ white;
+    text-shadow: 5px 5px black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mission-header{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: /*#014421;*/ white;
+    text-shadow: 5px 5px black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.history-header{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: /*#014421;*/ white;
+    text-shadow: 5px 5px black;
+    margin-top: 0px;
+    margin-bottom: .5em;
+}
+
+.contactxt-header{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: /*#014421;*/ white;
+    text-shadow: 5px 5px black;
+    margin-top: 0px;
+    margin-bottom: .5em;
+}
+
+.contact-text{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-text2{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#contact td, #contact th {
+    border: 1px solid #200909;
+    padding: 8px;
+  }
+
+#contact td, #contact th {
+    padding: 4px;
+}
+
+#contact tr:nth-child(odd){background-color: #471212;}

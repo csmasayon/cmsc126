@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang = "en">
+   <head>
+    <link rel="shortcut icon" type="image/png" href="pics/upmin_logo.png">
+      <meta charset = "utf-8">
+      <title>College of Science and Mathematics | University of the Philippines Mindanao</title>
+      <link rel="stylesheet" href="jquery/jquery-ui/jquery-ui.css">
+      <link rel="stylesheet" href="css/csm.css">
+      <script src = "jquery/jquery-3.6.0.js"></script>
+      <script src = "jquery/jquery-ui/jquery-ui.js"></script>
+   </head>
+
+   <body id="csm">
+        <!-- Side Menu using Menu Widget -->
+        <div class="menu">
+            <img id="upmin" src="pics/upmin_logo.png" class="header">
+            <br><br><br><br>
+            <ul id = "menu-1">
+                <li><a href = "index.html"><img src="pics/home2.png" class="icon">HOME</a></li>
+                <li><a href = "acad_units.html"><img src="pics/acad_units.png" class="icon">ACADEMIC UNITS</a></li>
+                <li><a href = "acad_prog.html"><img src="pics/acad_program.png" class="icon">ACADEMIC PROGRAMS</a></li>
+                <li><a href = "sign_up.html"><img src="pics/login.png" class="icon">SIGNUP</a></li>
+            </ul>
+        </div>
+
+        <!--Content of Webpage-->
+        <div class="content_csm">
+            <!--Header-->
+            <div class="image_overlay"><p class="csm">COLLEGE OF SCIENCE AND MATHEMATICS</p></div>
+            <div class="rect"><p class="csm2">ABOUT CSM</p></div>
+            <!--Area below the header-->
+            <div class="below_rect">
+                <!--Contains the background image-->
+                <div class="below_rect2">
+                    <!--History of the college-->
+                    <div class="image_overlay_history">
+                        <p class="csm3">HISTORY</p>
+                        <p class="csm4">
+                            The College of Science and Mathematics (CSM) was created on July 1, 1997 by virtue of the Board of Regent’s approval
+                            of a proposal by Dean Rogelio V. Cuyno. The faculty and staff of the School of Agri-Systems and Environment (SASE)
+                            as well as the Natural Science and Mathematics Cluster of the College of Arts and Sciences (CAS) were re-assigned to
+                            the new College. On the other hand, the Humanities and Social Sciences Clusters of the old College of Arts and Sciences
+                            became the new College of Humanities and Social Sciences. The SASE and CAS were effectively dissolved with the formation
+                            of the new units. The Board’s approval provided that a Director who will function as the Dean of the College would head
+                            CSM.
+                        </p>
+                    </div>
+                    <!--Academic Departments-->
+                    <div class="image_overlay_dept">
+                        <p class="csm3">ACADEMIC DEPARTMENTS</p>
+                        <p class="csm4">
+                            The College of Science and Mathematics (CSM) studies the endemic flora and pioneering scientific development
+                            in the fields of biology, food science, applied mathematics, and computer science.
+                        </p>
+
+                        <!--Pictures that represent the departments-->
+                        <div class="pic_dbses"></div>
+                        <div class="pic_dfsc"></div>
+                        <div class="pic_dmpcs"></div>
+
+                        <!--Content about Department of Biological Sciences and Environmental Studies-->
+                        <div class="content_dbses">
+                            <p class="csm5">Department of Biological Sciences and Environmental Studies</p>
+                            <p class="csm6">
+                                The Department of Biological Sciences and Environmental Studies offers one undergraduate degree program
+                                which is the Bachelor of Science in Biology (BSBio).
+                            </p>
+                            <button class="button" onclick="gotoBio();">See Degree Programs</button>
+                        </div>
+                        <!--Content about Department of Food Science and Chemistry-->
+                        <div class="content_dfsc">
+                            <p class="csm5">Department of Food Science and Chemistry</p><br>
+                            <p class="csm6">
+                                The Department of Food Science and Chemistry offers one undergraduate degree program and one graduate degree program.
+                                Its degree programs are the Bachelor of Science in Food Technology (BSFT) and Master of Science in Food Science.
+                            </p>
+                            <button class="button" onclick="gotoFT();">See Degree Programs</button>
+                        </div>
+                        <!--Content about Department of Mathematics, Physics and Computer Science-->
+                        <div class="content_dmpcs">
+                            <p class="csm5">Department of Mathematics, Physics and Computer Science</p>
+                            <p class="csm6">
+                                The Department of Mathematics, Physics and Computer Science is the largest department of the College of Science and
+                                Mathematics, UP Mindanao. It offers two of the four undergraduate degree programs in the College. Around fifty percent
+                                (50%) of the College's faculty members and students belongs to the department. Its degree programs are the Bachelor of
+                                Science in Computer Science (BSCS) and the Bachelor of Science in Applied Mathematics (BSAM).
+                            </p>
+                            <button class="button" onclick="gotoDMPCS();">See Degree Programs</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Footer-->
+                <div class="footer">
+                    <p class="csm7">All Rights Reserved 2021<br>University of the Philippines - Mindanao</p>
+                </div>
+            </div>
+      </div>
+
+      <!---Javascript-->
+      <script src="js/acad_units.js"></script>
+   </body>
+</html>
