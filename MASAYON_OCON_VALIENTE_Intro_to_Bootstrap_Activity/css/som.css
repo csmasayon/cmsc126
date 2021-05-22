@@ -1,0 +1,243 @@
+img.icon{
+    padding-right: 8px;
+    height: 20px;
+    width: 25px;
+}
+
+button.button
+{
+    display: none;
+    position: absolute;
+    background-color: #fdcb03;
+    color: white;
+    height:50px;
+    width:175px;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px black;
+    box-shadow: 10px 10px black;
+    border: 0;
+}
+
+.card:hover button.button{
+    display: block;
+    background-color: #fdcb03;
+    background-size: 27% 40%;
+    margin-left: 1%;
+}
+
+.red_overlay{
+    background-color: rgba(123, 17, 19, 0.7);
+}
+
+.green_overlay{
+    background-color: rgba(1, 68, 33, 0.7);
+}
+
+.green_bg{
+    background-color: #014421;
+}
+
+.side{
+    background-color: #7b1113;
+}
+
+.btn{
+    border: 3px solid rgba(0, 0, 0, 0.125);
+    float: center;
+    position: sticky;
+}
+
+.card{
+    background-color: transparent;
+    padding-bottom: 20%;
+    margin-bottom: 10%;
+    border: 0;
+}
+
+.card.dbses{
+    width: 50%;
+}
+
+.card.dbses:hover{
+    background-color: #7b1113;
+    border:#7b1113;
+    box-shadow: 10px 10px #014421;
+
+}
+
+.card_sidebar{
+    background-color: #7b1113;
+    font-size : 2vh;
+}
+
+.card.dbses{
+    float: left;
+    width: 21rem;
+}
+
+.pic_som{
+    height: 38vh;
+    width: 53vh;
+    border: 5px solid #fdcb03;
+}
+
+#upmin{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#box{
+    background-color: #7b1113;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+}
+
+#csm{
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px black;
+    padding: 10%;
+}
+
+#csm2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px black;
+    padding-top: 10px;
+}
+
+#csm3{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#csm4{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#csm5{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+#csm6{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#csm7{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 3%;
+    color: white;
+}
+
+#image{
+    background-image: url(../pics/som3.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 60vh;
+}
+
+#image2{
+    background-image: url(../pics/som.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: 3px solid rgba(0, 0, 0, 0.125);
+    outline: none;
+    background-color: #7b1113;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+#myBtn:hover {
+    background-color: #680e10;
+}
+
+@media screen
+    and (min-device-width: 0px)
+    and (max-device-width: 999px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    .btn{
+        border: 1px solid black;
+    }
+
+    .card.dbses{
+        width: 50rem;
+        background-color: #7b1113;
+        border:#7b1113;
+        box-shadow: 10px 10px #014421;
+   }
+
+    .card{
+        font-size : 1.25vh;
+    }
+
+    button.button
+    {
+        display: block;
+        position: absolute;
+        background-color: #fdcb03;
+        background-size: 27% 40%;
+        margin-left: 1%;
+        color: white;
+        height:5vh;
+        width:17vh;
+        font-size: larger;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 1px 1px black;
+        box-shadow: 10px 10px black;
+        border: 0;
+    }
+
+    .pic_som{
+        height: 40vw;
+        width: 82vw;
+        border: 5px solid #fdcb03;
+        margin-bottom: 20px;
+    }
+
+}

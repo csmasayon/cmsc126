@@ -1,0 +1,117 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#sidebar{
+    background-color: #7b1113;
+}
+
+#content{
+    background-image: url(../pics/upmin.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#upmin{
+    height: 30vh;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo_with_quote{
+    width: 90%;
+    margin-left: 85px;
+    margin-right: 15px;
+}
+
+img.icon{
+    padding-right: 8px;
+    height: 20px;
+    width: 30px;
+}
+
+fieldset {
+    font-size : 2vh;
+    padding: 50px 0;
+    border: 0;
+    text-align: center;
+    margin: 13% 20%;
+    border-radius: 60px;
+    background-color: rgba(1, 68, 33, 0.7);
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+}
+
+.btn{
+    border: 3px solid rgba(0, 0, 0, 0.125);
+    font-weight: bold;
+    color: #fdcb03;
+    float: center;
+}
+
+.card{
+    background-color: #7b1113;
+    font-size : 2vh;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+@media screen
+    and (min-device-width: 0px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+        #speed-button{
+            width: 15vh;
+        }
+
+        .btn{
+            border: 1px solid black;
+            font-weight: bold;
+            color: #fdcb03;
+        }
+        #upmin{
+        height: 15vh;
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content{
+        background-image: url(../pics/portrait.jpg);
+        background-size: 100% 100%;
+        height: 100vh;
+    }
+
+    .card{
+        font-size : 1.25vh;
+    }
+}
+
+@media screen
+    and (min-device-width: 1000px)
+    and (max-device-width: 1424px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    #upmin{
+        height: 20vh;
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

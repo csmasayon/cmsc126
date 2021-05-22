@@ -1,0 +1,379 @@
+html, body{
+  width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  background: url(../pics/upbg.jpg) no-repeat center center fixed;
+  background-size: 100%;
+}
+
+#sidebar{
+  background-color: #7b1113;
+}
+
+#content{
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: 100%;
+  height: 100vh;
+}
+
+.vision{
+  text-align: center;
+}
+
+#upmin{
+  height: 30vh;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo_with_quote{
+  width: 70%;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img.icon{
+  padding-right: 8px;
+  height: 20px;
+  width: 30px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  display: block;
+}
+
+.btn{
+  font-weight: bold;
+  color: #fdcb03;
+  float: center;
+}
+
+.card{
+  background-color: #7b1113;
+  font-size : 2vh;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.form{
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.863);
+  padding: 10px;
+  overflow: hidden;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3em;
+}
+
+input[type=button]{
+  background-color: #7b1113;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+input[type=button]:hover{
+  background-color: #6b1113;
+  font-weight: bold;
+}
+
+.ui-autocomplete {
+  max-height: 165px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+* html .ui-autocomplete {
+  height: 100px;
+}
+
+.province{
+width: 50%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.first-name{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.last-name{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.date{
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-text{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+
+.form-head{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+
+.form{
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.863);
+  padding: 10px;
+  overflow: hidden;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3em;
+}
+
+input[type=button]{
+  background-color: #7b1113;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+input[type=button]:hover{
+  background-color: #6b1113;
+  font-weight: bold;
+}
+
+.ui-autocomplete {
+  max-height: 165px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+* html .ui-autocomplete {
+  height: 100px;
+}
+
+.province{
+width: 50%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.first-name{
+  width: 49%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.last-name{
+  width: 49%;
+  float: right;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.date{
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-text{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+
+.form-head{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+
+@media screen
+  and (min-device-width: 0px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+      #speed-button{
+          width: 15vh;
+      }
+
+      .btn{
+          font-weight: bold;
+          color: #fdcb03;
+      }
+
+      #upmin{
+      height: 15vh;
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+  body{
+      background-image: url(../pics/upbg.jpg) no-repeat center center fixed;;
+      background-size: cover;
+  }
+  .card{
+      font-size : 1.25vh;
+  }
+
+  .form{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.863);
+    padding: 10px;
+    overflow: hidden;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3em;
+  }
+
+  input[type=button]{
+    background-color: #7b1113;
+    border: none;
+    color: white;
+    padding: 24px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size:larger;
+  }
+
+  input[type=button]:hover{
+    background-color: #6b1113;
+    font-weight: bold;
+  }
+
+  input[type=text]{
+    padding:18px;
+    font-size: 16px;
+  }
+
+  input[type=radio]{
+    padding:18px;
+    font-size: 16px;
+  }
+
+  .ui-autocomplete {
+    max-height: 165px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  * html .ui-autocomplete {
+    height: 100px;
+  }
+
+  .province{
+  width: 48%;
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+
+  .first-name{
+    width: 48%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .last-name{
+    width: 48%;
+    float: right;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .date{
+    width: 48%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-text{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:large;
+  }
+
+  .form-head{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    text-align: center;
+  }
+}
+
+@media screen
+  and (min-device-width: 1000px)
+  and (max-device-width: 1424px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #upmin{
+      height: 20vh;
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  body{
+    background-image: url(../pics/upbg.jpg) no-repeat center center fixed;;
+    background-size: cover;
+}
+}
