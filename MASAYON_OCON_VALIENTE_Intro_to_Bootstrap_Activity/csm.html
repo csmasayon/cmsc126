@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang = "en">
+   <head>
+    <link rel="shortcut icon" type="image/png" href="pics/upmin_logo.png">
+      <meta charset = "utf-8">
+      <title>College of Science and Mathematics | University of the Philippines Mindanao</title>
+      <link href="bootstrap/bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="jquery/jquery-ui/jquery-ui.css">
+        <link rel="stylesheet" href="css/csm.css">
+        <script src = "jquery/jquery-3.6.0.js"></script>
+        <script src = "jquery/jquery-ui/jquery-ui.js"></script>
+   </head>
+
+   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go Back to Top</button>
+    <div class="container-fluid">
+
+        <div class="row" id="image">
+            <div class="col-12 col-lg-2 side">
+                <div id="box">
+                    <p class="text-center">
+                        <a class="btn sticky left" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img class="img-fluid" id="upmin" src="pics/upmin_logo.png"></a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body card_sidebar">
+                            <ul class="nav justify-content-center" id="menu-1">
+                                <li class="nav-item"><a class="nav-link" href="index.html"><img src="pics/home2.png" class="icon">HOME</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="acad_units.html"><img src="pics/acad_units.png" class="icon">ACADEMIC UNITS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="acad_prog.html"><img src="pics/acad_program.png" class="icon">ACADEMIC PROGRAMS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="sign_up.html"><img src="pics/login.png" class="icon">SIGNUP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-10 red_overlay">
+                    <p id="csm">COLLEGE OF SCIENCE AND MATHEMATICS</p>
+
+                <div class="row" id="image2">
+                    <div class="col-xs-12 col-md-12 col-lg-12 green_bg">
+                            <p id="csm2">ABOUT CSM</p>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 col-lg-12 green_overlay">
+                            <p id="csm3">HISTORY</p>
+                            <p id="csm4">
+                                The College of Science and Mathematics (CSM) was created on July 1, 1997 by virtue of the Board of Regent’s approval
+                                of a proposal by Dean Rogelio V. Cuyno. The faculty and staff of the School of Agri-Systems and Environment (SASE)
+                                as well as the Natural Science and Mathematics Cluster of the College of Arts and Sciences (CAS) were re-assigned to
+                                the new College. On the other hand, the Humanities and Social Sciences Clusters of the old College of Arts and Sciences
+                                became the new College of Humanities and Social Sciences. The SASE and CAS were effectively dissolved with the formation
+                                of the new units. The Board’s approval provided that a Director who will function as the Dean of the College would head
+                                CSM.
+                            </p>
+                    </div>
+
+                    <div class="col-xs-12 col-md-12 col-lg-12 red_overlay ">
+                            <p id="csm3">ACADEMIC DEPARTMENTS</p>
+                            <p id="csm4">
+                                The College of Science and Mathematics (CSM) studies the endemic flora and pioneering scientific development
+                                in the fields of biology, food science, applied mathematics, and computer science.
+                            </p>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-10">
+                                    <div class="card dbses">
+                                        <img class="card-img-top pic_dbses" src="pics/dbses.png">
+                                        <div class="card-body">
+                                            <p id="csm5">Department of Biological Sciences and Environmental Studies</p>
+                                            <p id="csm6">
+                                                The Department of Biological Sciences and Environmental Studies offers one undergraduate degree program
+                                                which is the Bachelor of Science in Biology (BSBio).
+                                            </p>
+                                          <button class="button" onclick="gotoBio();">See Degree Programs</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-10">
+                                    <div class="card dbses ">
+                                        <img class="card-img-top pic_dfsc" src="pics/dfsc.png">
+                                        <div class="card-body">
+                                            <p id="csm5">Department of Food Science and Chemistry</p>
+                                            <p id="csm6">
+                                                The Department of Food Science and Chemistry offers one undergraduate degree program and one graduate degree program.
+                                                Its degree programs are the Bachelor of Science in Food Technology (BSFT) and Master of Science in Food Science.
+                                            </p>
+                                          <button class="button" onclick="gotoBio();">See Degree Programs</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-10">
+                                    <div class="card dbses">
+                                        <img class="card-img-top pic_dmpcs" src="pics/dmpcs.jpeg">
+                                        <div class="card-body">
+                                            <p id="csm5">Department of Mathematics, Physics and Computer Science</p>
+                                            <p id="csm6">
+                                                The Department of Mathematics, Physics and Computer Science is the largest department of the College of Science and
+                                                Mathematics, UP Mindanao. It offers two of the four undergraduate degree programs in the College. Around fifty percent
+                                                (50%) of the College's faculty members and students belongs to the department. Its degree programs are the Bachelor of
+                                                Science in Computer Science (BSCS) and the Bachelor of Science in Applied Mathematics (BSAM).
+                                            </p>
+                                          <button class="button" onclick="gotoBio();">See Degree Programs</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12 col-lg-12 footer green_bg">
+                        <p id="csm7">All Rights Reserved 2021<br>University of the Philippines - Mindanao</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/csm.js"></script>
+    <script src="bootstrap/bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel="shortcut icon" type="image/png" href="pics/upmin_logo.png">
+        <meta charset = "utf-8">
+        <title>Academic Units | University of the Philippines Mindanao</title>
+        <link href="bootstrap/bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="jquery/jquery-ui/jquery-ui.css">
+        <link rel="stylesheet" href="css/acad_units.css">
+        <script src = "jquery/jquery-3.6.0.js"></script>
+        <script src = "jquery/jquery-ui/jquery-ui.js"></script>
+    </head>
+
+    <body>
+        <!-- HTML -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-2" id="sidebar">
+                    <p class="text-center">
+                        <a class="btn" data-bs-toggle="collapse" name="Toggle Menu" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img class="img-fluid" id="upmin" src="pics/upmin_logo.png"></a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <ul class="nav justify-content-center" id="menu-1">
+                                <li class="nav-item"><a class="nav-link" href="index.html"><img src="pics/home2.png" class="icon">HOME</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="acad_units.html"><img src="pics/acad_units.png" class="icon">ACADEMIC UNITS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="acad_prog.html"><img src="pics/acad_program.png" class="icon">ACADEMIC PROGRAMS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="sign_up.html"><img src="pics/login.png" class="icon">SIGNUP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-10" id="content">
+                    <img src="pics/origlogonew2.png" id="logo_with_quote">
+                    <fieldset>
+                        <label for="speed">SELECT A COLLEGE / SCHOOL</label>
+                        <br>
+                        <select name="speed" id="speed">
+                            <option selected="selected" value="">Click Here to Choose</option>
+                            <option value="csm.html">College of Science and Mathematics</option>
+                            <option value="chss.html">College of Humanities and Social Sciences</option>
+                            <option value="som.html">School of Management</option>
+                        </select>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+        <!---Javascript-->
+        <script src="js/acad_units.js"></script>
+        <script src="bootstrap/bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
